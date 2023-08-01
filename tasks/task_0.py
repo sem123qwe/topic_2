@@ -1,1 +1,4 @@
-print(...)  # допишите код
+print( 'Hello, world!' '\n' * 10 )
+
+   
+

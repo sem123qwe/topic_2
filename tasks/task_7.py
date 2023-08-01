@@ -1,7 +1,7 @@
-cost = 1000
-discount = 20
-quantity = 3
+cost: int = 1000
+discount: int = 20
+quantity: int = 3
 
-total_cost = ...  # здесь Ваш код
+total_cost: int = 1000 * 3 - 600 
 
-print(...)  # допишите код
+print('стоимость вашего заказа:', total_cost, 'рублей' )  # допишите код

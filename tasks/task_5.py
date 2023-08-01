@@ -1,7 +1,7 @@
-weight_in_grams = 350000
+weight_in_grams: int = 350000
 
-weight_in_kilograms = ...  # здесь Ваш код
-weight_in_tons = ...  # здесь Ваш код
+weight_in_kilograms: float = weight_in_grams / 1000 
+weight_in_tons: float = weight_in_kilograms / 1000
 
-print(...)  # допишите код
-print(...)  # допишите код
+print(weight_in_kilograms)  
+print(weight_in_tons)  
