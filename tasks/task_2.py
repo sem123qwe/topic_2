@@ -1,4 +1,8 @@
-print('Таблица умножения :' '\n')  # допишите код
-print('1''\t''2''\t''3')  # допишите код
-print('2''\t''4''\t''6')  # допишите код
-print('3''\t''6''\t''9')  # допишите код
+print('Таблица умножения:\n')
+
+# DRY - Don't Repeat Yourself
+custom_sep = '\t\t'
+
+print('1', '2', '3', sep=custom_sep)
+print('4', '5', '6', sep=custom_sep)
+print('7', '8', '9', sep=custom_sep)
