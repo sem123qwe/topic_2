@@ -1,9 +1,19 @@
-custem_sep= '\n\t' 
+custem_sep: str = '\n'
+print('Python is an', '\tinterpreted,', '\thigh-level,',
+      '\tgeneral-purpose', 'programming language.', sep=custem_sep)
 
-print('Python is an','interpreted,','high-level,','general-purpose','programming language.', sep=custem_sep)
+# -----
+var: str = ('Python is an\n\tinterpreted,\n\thigh-level,'
+            '\n\tgeneral-purpose\nprogramming language.')
+print(var)
 
-custem_sep= '\n' 
+# -----
 
-print('Python is an','\t interpreted,','\t high-level,','\t general-purpose','programming language.', sep=custem_sep)
+var_2: str = """Python is an
+    interpreted,
+    high-level,
+    general-purpose
+programming language.
+"""
 
-# TODO: Необходимо улучшить
+print(var_2)
